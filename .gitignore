@@ -1,0 +1,32 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Mac OS
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Project
+/logs
+
+.python-version
+
+*.lock
+
+/experimentation/dataset/*
+!/experimentation/dataset/.gitkeep
+
+/experimentation/output/*
+!/experimentation/output/.gitkeep
+
+*/.ipynb_checkpoints/
+
+*/.venv/
+
+*.virtual*
+
+/notebook/phase1
+/experimentation/.env_api
